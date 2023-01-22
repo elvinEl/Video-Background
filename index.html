@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Background-Video</title>
+</head>
+
+<body class="overflow-x-hidden">
+
+    <section class="max-h-full ">
+
+        <header class="absolute z-10  px-[100px] py-[40px] flex justify-between w-full">
+            <div class=" text-white text-2xl font-bold">CD PROJEKT RED</div>
+
+            <div class="toggle cursor-pointer duration-200">
+                <div class="line1 w-[35px] h-[3px] bg-white"></div>
+                <div class="line2 w-[35px] h-[3px] bg-white my-[5px]"></div>
+                <div class="line3 w-[35px] h-[3px] bg-white"></div>
+            </div>
+        </header>
+
+
+        <main class="absolute z-10 text-white h-full flex justify-center  flex-col ml-[5rem]">
+            <p class="text-6xl font-extrabold">CYBERPUNK 2077</p>
+            <p class="text-5xl font-bold">LIZZY WIZZY</p>
+            <p class="text-[1.1rem] max-w-[700px] my-8">"Your Body Can Be Chrome.. But The Heart Never Changes It Wants
+                What It Wants."</p>
+            <a href="#"
+                class="bg-white text-black py-3 w-[250px] flex justify-center items-center tracking-[2px]  uppercase  duration-500 hover:tracking-[5px] hover:w-[300px]">Explore
+                the World</a>
+
+
+
+        </main>
+
+        <video src="./vid.mp4" autoplay muted loop
+            class="w-full h-full absolute top-[0] left-[0] object-cover opacity-95"></video>
+
+
+    </section>
+
+
+    <div class="menu bg-white w-[250px] text-2xl  h-full absolute right-[-250px] flex justify-center items-center duration-700">
+        <ul>
+            <li class="my-[5px]">
+                <a href="#">Home</a>
+            </li>
+            <li class="my-[5px]">
+                <a href="#">News</a>
+            </li>
+            <li class="my-[5px]">
+                <a href="#">New Games</a>
+            </li>
+            <li class="my-[5px]">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="div absolute bottom-[35px] left-[90px] flex  items-center gap-[30px] z-10">
+
+        <a href="#"" class=" scale-50 hover:translate-y-[-20px] duration-700"><img src="img/instagram.png" alt=""></a>
+        <a href="#" class="scale-50 hover:translate-y-[-20px] duration-700"><img src=" img/facebook.png" alt=""></a>
+        <a href="#" class="scale-50 hover:translate-y-[-20px] duration-700 ""><img src=" img/twitter.png" alt=""></a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
